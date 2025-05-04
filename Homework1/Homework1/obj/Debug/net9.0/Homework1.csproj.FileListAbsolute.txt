@@ -1,0 +1,17 @@
+C:\Users\Toshiba\source\repos\Homework1\Homework1\bin\Debug\net9.0\Homework1.exe
+C:\Users\Toshiba\source\repos\Homework1\Homework1\bin\Debug\net9.0\Homework1.deps.json
+C:\Users\Toshiba\source\repos\Homework1\Homework1\bin\Debug\net9.0\Homework1.runtimeconfig.json
+C:\Users\Toshiba\source\repos\Homework1\Homework1\bin\Debug\net9.0\Homework1.dll
+C:\Users\Toshiba\source\repos\Homework1\Homework1\bin\Debug\net9.0\Homework1.pdb
+C:\Users\Toshiba\source\repos\Homework1\Homework1\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\Homework1.csproj.AssemblyReference.cache
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\Homework1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\Homework1.AssemblyInfoInputs.cache
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\Homework1.AssemblyInfo.cs
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\Homework1.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\Homework1.csproj.Up2Date
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\Homework1.dll
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\refint\Homework1.dll
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\Homework1.pdb
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\Homework1.genruntimeconfig.cache
+C:\Users\Toshiba\source\repos\Homework1\Homework1\obj\Debug\net9.0\ref\Homework1.dll
