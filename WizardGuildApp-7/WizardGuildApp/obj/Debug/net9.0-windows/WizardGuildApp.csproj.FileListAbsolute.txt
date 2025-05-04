@@ -1,0 +1,14 @@
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\obj\Debug\net9.0-windows\WizardGuildApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\obj\Debug\net9.0-windows\WizardGuildApp.AssemblyInfoInputs.cache
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\obj\Debug\net9.0-windows\WizardGuildApp.AssemblyInfo.cs
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\obj\Debug\net9.0-windows\WizardGuildApp.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\bin\Debug\net9.0-windows\WizardGuildApp.exe
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\bin\Debug\net9.0-windows\WizardGuildApp.deps.json
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\bin\Debug\net9.0-windows\WizardGuildApp.runtimeconfig.json
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\bin\Debug\net9.0-windows\WizardGuildApp.dll
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\bin\Debug\net9.0-windows\WizardGuildApp.pdb
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\obj\Debug\net9.0-windows\WizardGuildApp.dll
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\obj\Debug\net9.0-windows\refint\WizardGuildApp.dll
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\obj\Debug\net9.0-windows\WizardGuildApp.pdb
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\obj\Debug\net9.0-windows\WizardGuildApp.genruntimeconfig.cache
+C:\Users\Toshiba\source\repos\WizardGuildApp\WizardGuildApp\obj\Debug\net9.0-windows\ref\WizardGuildApp.dll
