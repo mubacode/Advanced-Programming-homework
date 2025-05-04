@@ -1,0 +1,102 @@
+@{
+    ViewData["Title"] = "Library Statistics";
+}
+
+<h1>Library Statistics</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Total Books</h5>
+                <p class="card-text">@ViewBag.TotalBooks</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Total Authors</h5>
+                <p class="card-text">@ViewBag.TotalAuthors</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Total Categories</h5>
+                <p class="card-text">@ViewBag.TotalCategories</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Books by Category</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Book Count</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ViewBag.BooksByCategory)
+                        {
+                            <tr>
+                                <td>@item.CategoryName</td>
+                                <td>@item.BookCount</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Top 5 Authors by Book Count</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Author</th>
+                            <th>Book Count</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ViewBag.BooksByAuthor)
+                        {
+                            <tr>
+                                <td>@item.AuthorName</td>
+                                <td>@item.BookCount</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Average Book Price</h5>
+                <p class="card-text">$@ViewBag.AverageBookPrice.ToString("F2")</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Total Available Copies</h5>
+                <p class="card-text">@ViewBag.TotalAvailableCopies</p>
+            </div>
+        </div>
+    </div>
+</div> 

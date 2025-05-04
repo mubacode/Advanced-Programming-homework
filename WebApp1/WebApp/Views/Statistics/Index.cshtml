@@ -1,0 +1,254 @@
+@model WebApp.ViewModels.LibraryStatisticsViewModel
+
+@{
+    ViewData["Title"] = "Library Statistics";
+}
+
+<div class="container">
+    <h1 class="mb-4"><i class="bi bi-bar-chart-line me-2"></i>Library Statistics</h1>
+    
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body text-center">
+                    <div class="display-4 text-primary mb-2">
+                        <i class="bi bi-book"></i>
+                    </div>
+                    <h1 class="display-4 mb-0">@Model.TotalBooks</h1>
+                    <p class="text-muted">Total Books</p>
+                    <div class="progress mt-2">
+                        <div class="progress-bar bg-primary" style="width: 100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body text-center">
+                    <div class="display-4 text-success mb-2">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h1 class="display-4 mb-0">@Model.TotalAuthors</h1>
+                    <p class="text-muted">Authors</p>
+                    <div class="progress mt-2">
+                        <div class="progress-bar bg-success" style="width: 100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body text-center">
+                    <div class="display-4 text-info mb-2">
+                        <i class="bi bi-tags"></i>
+                    </div>
+                    <h1 class="display-4 mb-0">@Model.TotalCategories</h1>
+                    <p class="text-muted">Categories</p>
+                    <div class="progress mt-2">
+                        <div class="progress-bar bg-info" style="width: 100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body text-center">
+                    <div class="display-4 text-warning mb-2">
+                        <i class="bi bi-journal-check"></i>
+                    </div>
+                    <h1 class="display-4 mb-0">@Model.AvailableBooks</h1>
+                    <p class="text-muted">Available Books</p>
+                    <div class="progress mt-2">
+                        <div class="progress-bar bg-warning" 
+                             style="width: @(Model.TotalBookCopies > 0 ? (Model.AvailableBooks * 100 / Model.TotalBookCopies) : 0)%">
+                        </div>
+                    </div>
+                    <small class="text-muted">of @Model.TotalBookCopies total copies</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Tab Panel -->
+    <div class="card border-0 shadow-sm mb-4">
+        <div class="card-header bg-white">
+            <ul class="nav nav-tabs card-header-tabs" id="statsTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="categories-tab" data-bs-toggle="tab" 
+                            data-bs-target="#categories" type="button" role="tab">
+                        <i class="bi bi-pie-chart me-1"></i> Categories
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="authors-tab" data-bs-toggle="tab" 
+                            data-bs-target="#authors" type="button" role="tab">
+                        <i class="bi bi-people-fill me-1"></i> Top Authors
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="languages-tab" data-bs-toggle="tab" 
+                            data-bs-target="#languages" type="button" role="tab">
+                        <i class="bi bi-translate me-1"></i> Languages
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="recent-tab" data-bs-toggle="tab" 
+                            data-bs-target="#recent" type="button" role="tab">
+                        <i class="bi bi-clock-history me-1"></i> Recent Books
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="card-body">
+            <div class="tab-content" id="statsTabContent">
+                <!-- Categories Tab -->
+                <div class="tab-pane fade show active" id="categories" role="tabpanel">
+                    <h5 class="mb-3">Book Distribution by Category</h5>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Category</th>
+                                    <th>Book Count</th>
+                                    <th>Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var category in Model.BooksPerCategory)
+                                {
+                                    var percentage = Model.TotalBooks > 0 ? (category.BookCount * 100.0 / Model.TotalBooks) : 0;
+                                    <tr>
+                                        <td>
+                                            <span class="badge rounded-pill bg-info text-dark me-2">@category.CategoryName</span>
+                                        </td>
+                                        <td>@category.BookCount</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="progress flex-grow-1 me-2" style="height: 8px;">
+                                                    <div class="progress-bar" role="progressbar" style="width: @percentage%;" 
+                                                        aria-valuenow="@percentage" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                                <span class="text-muted small">@percentage.ToString("F1")%</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Authors Tab -->
+                <div class="tab-pane fade" id="authors" role="tabpanel">
+                    <h5 class="mb-3">Most Prolific Authors</h5>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Author</th>
+                                    <th>Book Count</th>
+                                    <th>Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var author in Model.BooksPerAuthor.Take(10))
+                                {
+                                    var percentage = Model.TotalBooks > 0 ? (author.BookCount * 100.0 / Model.TotalBooks) : 0;
+                                    <tr>
+                                        <td>
+                                            <a href="https://www.google.com/search?q=@author.AuthorName" target="_blank" class="text-decoration-none">
+                                                <i class="bi bi-person me-2"></i>@author.AuthorName 
+                                                <i class="bi bi-box-arrow-up-right small"></i>
+                                            </a>
+                                        </td>
+                                        <td>@author.BookCount</td>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <div class="progress flex-grow-1 me-2" style="height: 8px;">
+                                                    <div class="progress-bar bg-success" role="progressbar" style="width: @percentage%;" 
+                                                        aria-valuenow="@percentage" aria-valuemin="0" aria-valuemax="100">
+                                                    </div>
+                                                </div>
+                                                <span class="text-muted small">@percentage.ToString("F1")%</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <!-- Languages Tab -->
+                <div class="tab-pane fade" id="languages" role="tabpanel">
+                    <h5 class="mb-3">Book Languages</h5>
+                    <div class="row">
+                        @foreach (var language in Model.MostPopularLanguages)
+                        {
+                            <div class="col-md-4 mb-3">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body text-center">
+                                        <div class="display-6 mb-2">
+                                            <i class="bi bi-translate text-info"></i>
+                                        </div>
+                                        <h5>@language.Language</h5>
+                                        <div class="display-6 fw-bold mb-1">@language.BookCount</div>
+                                        <div class="text-muted small">books</div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                
+                <!-- Recent Books Tab -->
+                <div class="tab-pane fade" id="recent" role="tabpanel">
+                    <h5 class="mb-3">Recently Added Books</h5>
+                    <div class="row">
+                        @foreach (var book in Model.RecentlyAddedBooks)
+                        {
+                            <div class="col-md-6 mb-3">
+                                <div class="card h-100 border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between mb-2">
+                                            <h5 class="mb-1">@book.Title</h5>
+                                            <span class="badge bg-info text-dark">@(book.Category?.Name ?? "Uncategorized")</span>
+                                        </div>
+                                        <p class="text-muted mb-2">
+                                            <i class="bi bi-person me-1"></i> 
+                                            <a href="https://www.google.com/search?q=@(book.Author?.FullName)" 
+                                               target="_blank" class="text-decoration-none">
+                                                @(book.Author?.FullName ?? "Unknown Author")
+                                            </a>
+                                        </p>
+                                        <p class="text-muted mb-2"><i class="bi bi-calendar me-1"></i> @book.PublicationDate.ToShortDateString()</p>
+                                        <a href="@Url.Action("Details", "Book", new { id = book.BookId })" class="btn btn-sm btn-outline-primary mt-2">
+                                            View Details
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Initialize Bootstrap tabs
+        document.addEventListener('DOMContentLoaded', function() {
+            var triggerTabList = [].slice.call(document.querySelectorAll('#statsTab button'))
+            triggerTabList.forEach(function (triggerEl) {
+                var tabTrigger = new bootstrap.Tab(triggerEl)
+                triggerEl.addEventListener('click', function (event) {
+                    event.preventDefault()
+                    tabTrigger.show()
+                })
+            })
+        });
+    </script>
+} 

@@ -1,0 +1,57 @@
+@model WebApp.Models.Category
+
+@{
+    ViewData["Title"] = "Category Details";
+}
+
+<h1>Category Details</h1>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h3>@Model.Name</h3>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Name</dt>
+            <dd class="col-sm-9">@Model.Name</dd>
+            
+            <dt class="col-sm-3">Description</dt>
+            <dd class="col-sm-9">@Html.DisplayFor(model => model.Description)</dd>
+        </dl>
+    </div>
+</div>
+
+<h4>Books in @Model.Name Category</h4>
+
+@if (Model.Books != null && Model.Books.Any())
+{
+    <div class="row">
+        @foreach (var book in Model.Books)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-header">
+                        <h5 class="card-title">@book.Title</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">@(book.Description != null && book.Description.Length > 150 ? book.Description.Substring(0, 147) + "..." : book.Description)</p>
+                        <p class="text-muted">Author: @(book.Author?.FullName ?? "Unknown")</p>
+                        <p class="text-muted">ISBN: @book.ISBN</p>
+                    </div>
+                    <div class="card-footer">
+                        <a asp-controller="Book" asp-action="Details" asp-route-id="@book.BookId" class="btn btn-sm btn-primary">View Book</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No books available in this category.</p>
+}
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.CategoryId" class="btn btn-warning">Edit</a> |
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div> 
