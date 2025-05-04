@@ -1,0 +1,14 @@
+C:\Users\Toshiba\source\repos\Delegates\Delegates\bin\Debug\net9.0\Delegates.exe
+C:\Users\Toshiba\source\repos\Delegates\Delegates\bin\Debug\net9.0\Delegates.deps.json
+C:\Users\Toshiba\source\repos\Delegates\Delegates\bin\Debug\net9.0\Delegates.runtimeconfig.json
+C:\Users\Toshiba\source\repos\Delegates\Delegates\bin\Debug\net9.0\Delegates.dll
+C:\Users\Toshiba\source\repos\Delegates\Delegates\bin\Debug\net9.0\Delegates.pdb
+C:\Users\Toshiba\source\repos\Delegates\Delegates\obj\Debug\net9.0\Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toshiba\source\repos\Delegates\Delegates\obj\Debug\net9.0\Delegates.AssemblyInfoInputs.cache
+C:\Users\Toshiba\source\repos\Delegates\Delegates\obj\Debug\net9.0\Delegates.AssemblyInfo.cs
+C:\Users\Toshiba\source\repos\Delegates\Delegates\obj\Debug\net9.0\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\source\repos\Delegates\Delegates\obj\Debug\net9.0\Delegates.dll
+C:\Users\Toshiba\source\repos\Delegates\Delegates\obj\Debug\net9.0\refint\Delegates.dll
+C:\Users\Toshiba\source\repos\Delegates\Delegates\obj\Debug\net9.0\Delegates.pdb
+C:\Users\Toshiba\source\repos\Delegates\Delegates\obj\Debug\net9.0\Delegates.genruntimeconfig.cache
+C:\Users\Toshiba\source\repos\Delegates\Delegates\obj\Debug\net9.0\ref\Delegates.dll
