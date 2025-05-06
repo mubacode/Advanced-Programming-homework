@@ -40,7 +40,8 @@ button.accept-policy[b-bshxyeer5o] {
 }
 
 .footer[b-bshxyeer5o] {
-  position: absolute;
+  /* position: absolute; */
+  position: static;
   bottom: 0;
   width: 100%;
   white-space: nowrap;

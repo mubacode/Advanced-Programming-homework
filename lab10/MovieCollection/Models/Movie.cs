@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MovieCollection.Models
 {
@@ -9,7 +10,7 @@ namespace MovieCollection.Models
 
         [Required]
         [StringLength(100)]
-        public string Title { get; set; }
+        public string Title { get; set; } = string.Empty;
 
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
@@ -17,13 +18,14 @@ namespace MovieCollection.Models
 
         [Required]
         [StringLength(50)]
-        public string Genre { get; set; }
+        public string Genre { get; set; } = string.Empty;
 
         [Range(0, 100)]
         [DataType(DataType.Currency)]
+        [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
 
         [StringLength(5)]
-        public string Rating { get; set; }
+        public string Rating { get; set; } = string.Empty;
     }
 } 
