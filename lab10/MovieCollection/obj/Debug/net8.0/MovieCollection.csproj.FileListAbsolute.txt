@@ -276,3 +276,5 @@ C:\Users\Toshiba\Desktop\lab10\MovieCollection\obj\Debug\net8.0\refint\MovieColl
 C:\Users\Toshiba\Desktop\lab10\MovieCollection\obj\Debug\net8.0\MovieCollection.pdb
 C:\Users\Toshiba\Desktop\lab10\MovieCollection\obj\Debug\net8.0\MovieCollection.genruntimeconfig.cache
 C:\Users\Toshiba\Desktop\lab10\MovieCollection\obj\Debug\net8.0\ref\MovieCollection.dll
+C:\Users\Toshiba\Desktop\lab10\MovieCollection\obj\Debug\net8.0\MovieCollection.sourcelink.json
+C:\Users\Toshiba\Desktop\lab10\MovieCollection\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
