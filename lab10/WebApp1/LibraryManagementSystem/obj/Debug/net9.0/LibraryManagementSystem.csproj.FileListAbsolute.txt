@@ -1,0 +1,8 @@
+C:\Users\Toshiba\Desktop\WebApp\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toshiba\Desktop\WebApp\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystem.AssemblyInfoInputs.cache
+C:\Users\Toshiba\Desktop\WebApp\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystem.AssemblyInfo.cs
+C:\Users\Toshiba\Desktop\WebApp\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\WebApp\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Toshiba\Desktop\WebApp\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystem.RazorAssemblyInfo.cache
+C:\Users\Toshiba\Desktop\WebApp\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystem.RazorAssemblyInfo.cs
+C:\Users\Toshiba\Desktop\WebApp\LibraryManagementSystem\obj\Debug\net9.0\LibraryManagementSystem.csproj.AssemblyReference.cache

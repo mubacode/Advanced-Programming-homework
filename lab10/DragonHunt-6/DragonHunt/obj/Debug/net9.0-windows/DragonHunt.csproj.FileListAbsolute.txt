@@ -1,0 +1,16 @@
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\bin\Debug\net9.0-windows\DragonHunt.exe
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\bin\Debug\net9.0-windows\DragonHunt.deps.json
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\bin\Debug\net9.0-windows\DragonHunt.runtimeconfig.json
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\bin\Debug\net9.0-windows\DragonHunt.dll
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\bin\Debug\net9.0-windows\DragonHunt.pdb
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\DragonHunt.App.Form1.resources
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\DragonHunt.csproj.GenerateResource.cache
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\DragonHunt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\DragonHunt.AssemblyInfoInputs.cache
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\DragonHunt.AssemblyInfo.cs
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\DragonHunt.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\DragonHunt.dll
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\refint\DragonHunt.dll
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\DragonHunt.pdb
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\DragonHunt.genruntimeconfig.cache
+C:\Users\Toshiba\source\repos\DragonHunt\DragonHunt\obj\Debug\net9.0-windows\ref\DragonHunt.dll
