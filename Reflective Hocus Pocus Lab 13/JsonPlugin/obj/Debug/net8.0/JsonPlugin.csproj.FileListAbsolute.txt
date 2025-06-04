@@ -1,0 +1,15 @@
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\bin\Debug\net8.0\JsonPlugin.deps.json
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\bin\Debug\net8.0\JsonPlugin.dll
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\bin\Debug\net8.0\JsonPlugin.pdb
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\bin\Debug\net8.0\SharedLibrary.dll
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\bin\Debug\net8.0\SharedLibrary.pdb
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\JsonPlugin.csproj.AssemblyReference.cache
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\JsonPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\JsonPlugin.AssemblyInfoInputs.cache
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\JsonPlugin.AssemblyInfo.cs
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\JsonPlugin.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\JsonPlugin.csproj.Up2Date
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\JsonPlugin.dll
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\refint\JsonPlugin.dll
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\JsonPlugin.pdb
+C:\Users\Toshiba\Desktop\adv\Reflective Hocus Pocus Lab 13\JsonPlugin\obj\Debug\net8.0\ref\JsonPlugin.dll
