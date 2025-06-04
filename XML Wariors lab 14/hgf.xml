@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<guild>
+  <warrior gender="male">
+    <name>fsd</name>
+    <level>12</level>
+    <hp>12</hp>
+    <monster>eafasd</monster>
+  </warrior>
+  <warrior gender="male">
+    <name>adsff</name>
+    <level>1</level>
+    <hp>100</hp>
+    <monster>afd</monster>
+  </warrior>
+</guild>

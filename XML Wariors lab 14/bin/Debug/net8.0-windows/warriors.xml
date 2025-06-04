@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Warriors>
+  <Warrior>
+    <Name>Studentus Pymus</Name>
+    <Gender>male</Gender>
+    <Level>13</Level>
+    <HP>200</HP>
+    <Monster>Prokrastinara</Monster>
+  </Warrior>
+  <Warrior>
+    <Name>Genowefa Pywa</Name>
+    <Gender>female</Gender>
+    <Level>4</Level>
+    <HP>100</HP>
+    <Monster>Barat</Monster>
+  </Warrior>
+</Warriors>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Warriors>
+  <Warrior>
+    <Name>jfdsk2</Name>
+    <Gender>male</Gender>
+    <Level>44</Level>
+    <HP>32</HP>
+    <Monster>dsf</Monster>
+  </Warrior>
+  <Warrior>
+    <Name>dfacxc</Name>
+    <Gender>male</Gender>
+    <Level>4</Level>
+    <HP>2</HP>
+    <Monster>fsdasd</Monster>
+  </Warrior>
+</Warriors>
